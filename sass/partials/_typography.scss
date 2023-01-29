@@ -1,0 +1,7 @@
+h1 {
+    font-family: $font-primary;
+    font-size: 34px !important;
+    text-align: center;
+    margin: 1.2em auto !important;
+    color: getColour(h1-heading-color);
+}

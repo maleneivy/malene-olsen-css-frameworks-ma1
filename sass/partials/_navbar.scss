@@ -1,0 +1,17 @@
+.navbar .bg-light {
+    background: getColour(secondary-background-color) !important;
+}
+
+.navbar-toggler,
+.navbar-light {
+    border: none !important;
+    color: getColour(h1-heading-color) !important;
+}
+
+.nav-link {
+    color: getColour(nav-link-color) !important;
+}
+
+.nav__link--active {
+    color: getColour(pink) !important;
+}

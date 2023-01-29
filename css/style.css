@@ -1,0 +1,29 @@
+h1 {
+  font-family: "Open Sans";
+  font-size: 34px !important;
+  text-align: center;
+  margin: 1.2em auto !important;
+  color: #463F3A;
+}
+
+body {
+  background-color: #E5E5E5 !important;
+}
+
+.navbar .bg-light {
+  background: #F4F3EE !important;
+}
+
+.navbar-toggler,
+.navbar-light {
+  border: none !important;
+  color: #463F3A !important;
+}
+
+.nav-link {
+  color: #8D8D8D !important;
+}
+
+.nav__link--active {
+  color: #C32C72 !important;
+}/*# sourceMappingURL=style.css.map */
