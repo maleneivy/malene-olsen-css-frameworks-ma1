@@ -10,8 +10,17 @@
 
 .nav-link {
     color: getColour(nav-link-color) !important;
+    font-family: $font-links;
+    text-transform: uppercase;
+    font-size: 15px;
+    ;
 }
 
 .nav__link--active {
     color: getColour(pink) !important;
+}
+
+.navbar-brand {
+    font-family: $font-primary !important;
+    font-size: 36px !important;
 }

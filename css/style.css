@@ -2,15 +2,11 @@ h1 {
   font-family: "Open Sans";
   font-size: 34px !important;
   text-align: center;
-  margin: 1.2em auto !important;
+  margin: 1.5em auto !important;
   color: #463F3A;
 }
 
-body {
-  background-color: #E5E5E5 !important;
-}
-
-.navbar .bg-light {
+.bg-light {
   background: #F4F3EE !important;
 }
 
@@ -22,8 +18,46 @@ body {
 
 .nav-link {
   color: #8D8D8D !important;
+  font-family: "Archivo Narrow";
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .nav__link--active {
   color: #C32C72 !important;
+}
+
+.navbar-brand {
+  font-family: "Open Sans" !important;
+  font-size: 36px !important;
+}
+
+body {
+  background-color: #E5E5E5 !important;
+}
+
+footer {
+  display: flex !important;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #F4F3EE;
+}
+footer div {
+  margin: 20px;
+  font-family: "Open Sans";
+  color: #8D8D8D;
+  font-size: 12px;
+}
+@media (max-width: 576px) {
+  footer {
+    align-items: center;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 20px;
+  }
+  footer div {
+    margin: 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
