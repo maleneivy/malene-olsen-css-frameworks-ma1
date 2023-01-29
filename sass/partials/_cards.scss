@@ -1,0 +1,14 @@
+.row {
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+
+    .card__body {
+        background-color: getColour(secondary-background-color);
+        border-radius: 15px;
+        width: 355px;
+        height: 255px;
+
+        @media (max-width: $width-small) {}
+    }
+}
