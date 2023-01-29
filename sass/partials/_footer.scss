@@ -4,6 +4,7 @@ footer {
     height: 50px;
     background-color: getColour(secondary-background-color);
     margin-top: 100px;
+    flex-shrink: 0;
 
     div {
         margin: 20px;
