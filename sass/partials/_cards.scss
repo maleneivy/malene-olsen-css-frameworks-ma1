@@ -1,12 +1,22 @@
 .row {
     gap: 15px;
-    margin-top: 15px;
+    margin: 8px 20px !important;
     justify-content: center;
+
 
     .card__body {
         background-color: getColour(secondary-background-color);
         border-radius: 15px;
-        width: 355px;
         height: 255px;
     }
+
+    .card__body--pink-border {
+        border: 3px solid getColour(pink);
+    }
+
+    .card__body--pink-body {
+        border: 3px solid getColour(white);
+        background-color: getColour(pink);
+    }
+
 }

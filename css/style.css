@@ -1,13 +1,19 @@
 .row {
   gap: 15px;
-  margin-top: 15px;
+  margin: 8px 20px !important;
   justify-content: center;
 }
 .row .card__body {
   background-color: #F4F3EE;
   border-radius: 15px;
-  width: 355px;
   height: 255px;
+}
+.row .card__body--pink-border {
+  border: 3px solid #C32C72;
+}
+.row .card__body--pink-body {
+  border: 3px solid #FFFFFF;
+  background-color: #C32C72;
 }
 
 h1 {
